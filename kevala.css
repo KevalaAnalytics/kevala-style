@@ -1,34 +1,34 @@
 /* Kevala specific styling
 */
-.bg.k-yellow {
+.k-yellow {
     background-color: #FFD832;
 }
-.bg.k-orange {
+.k-orange {
     background-color: #ff802b;
 }
-.bg.k-orange.lighten {
+.k-orange.lighten {
     background-color: #ffa24d;
     /*background-color: #ff913c;*/
 }
-.bg.k-orange.lighten2 {
+.k-orange.lighten2 {
     background-color: #ffc46f;
 }
-.bg.k-orange2 {
+.k-orange2 {
     background-color: #F94007;
 }
-.bg.k-blue {
+.k-blue {
     background-color: #245297;
 }
-.bg.k-blue2 {
+.k-blue2 {
     background-color: #00215B;
 }
-.bg.k-green {
+.k-green {
     background-color: #00B4AB;
 }
-.bg.k-green2 {
+.k-green2 {
     background-color: #00999E;
 }
-.bg.k-green3 {
+.k-green3 {
     background-color: #3CA3A0;
 }
 
