@@ -1,0 +1,164 @@
+/* Kevala specific styling
+*/
+.bg.k-yellow {
+    background-color: #FFD832;
+}
+.bg.k-orange {
+    background-color: #ff802b;
+}
+.bg.k-orange.lighten {
+    background-color: #ffa24d;
+    /*background-color: #ff913c;*/
+}
+.bg.k-orange.lighten2 {
+    background-color: #ffc46f;
+}
+.bg.k-orange2 {
+    background-color: #F94007;
+}
+.bg.k-blue {
+    background-color: #245297;
+}
+.bg.k-blue2 {
+    background-color: #00215B;
+}
+.bg.k-green {
+    background-color: #00B4AB;
+}
+.bg.k-green2 {
+    background-color: #00999E;
+}
+.bg.k-green3 {
+    background-color: #3CA3A0;
+}
+
+button {
+    margin: 0 0.25rem;
+}
+
+.thin {
+    font-weight: 200;
+}
+.thick {
+    font-weight: 600;
+}
+
+.light {
+    color: #fff;
+}
+.dark {
+    color: #000;
+}
+
+.label {
+    font-size: 1.5em;
+}
+.label-small {
+    font-size: 1.25em;
+}
+
+.tiny {
+    font-size: 1rem;
+}
+.small {
+    font-size: 2rem;
+}
+.xlarge {
+    font-size: 8rem;
+}
+.xxlarge {
+    font-size: 10rem;
+}
+
+.title {
+    font-family: 'Roboto', Arial, sans-serif;
+}
+.title.primary {
+    font-size: 3.125em;
+}
+.title.primary-small {
+    font-size: 1.75em;
+}
+.title.secondary {
+    font-size: 2.25em;
+}
+.title.secondary-small {
+    font-size: 1.875em;
+}
+@media all and (min-width: 73em) {
+    .tiny {
+        font-size: 0.5em;
+    }
+    .title.primary-small {
+        font-size: 2.25em;
+    }
+}
+@media all and (min-width: 120em) {
+    .tiny {
+        font-size: 0.75em;
+    }
+    .title.primary-small {
+        font-size: 3.125em;
+    }
+}
+
+.ka-btn {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 4px 8px 0 rgba(0,0,0,0.2);*/
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 0.4em;
+    font-weight: bold;
+    padding: 0.25rem;
+}
+.ka-btn:active {
+    /*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 8px 16px 0 rgba(0,0,0,0.2);*/
+}
+@media all and (min-width: 73em) {
+    .ka-btn {
+        border-width: 4px;
+        font-size: 0.7em;
+        padding: 0.375rem;
+    }
+}
+@media all and (min-width: 120em) {
+    .ka-btn {
+        font-size: 1em;
+    }
+}
+
+.btn-cta-hollow {
+    background-color: #FFF;
+    border-color: #18927A;
+    color: #18927A;
+}
+.btn-cta-hollow:hover {
+    background-color: #18927A;
+    color: #FFF;
+}
+.btn-cta-hollow:disabled {
+    pointer-events: none;
+    border-color: #6CC9B7;
+    color: #6CC9B7;
+}
+
+.btn-cta-solid {
+    background-color: #18927A;
+    border-color: #18927A;
+    color: #FFF;
+}
+.btn-cta-solid:hover {
+    background-color: #296E60;
+    border-color: #296E60;
+}
+.btn-cta-solid:disabled {
+    pointer-events: none;
+    background-color: #6CC9B7;
+    border-color: #6CC9B7;
+}
+
+body {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+}
