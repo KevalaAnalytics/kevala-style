@@ -1,5 +1,12 @@
 /* Kevala specific styling
 */
+body {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+}
+button {
+    margin: 0 0.25rem;
+}
+
 .k-yellow {
     background-color: #FFD832;
 }
@@ -8,7 +15,6 @@
 }
 .k-orange.lighten {
     background-color: #ffa24d;
-    /*background-color: #ff913c;*/
 }
 .k-orange.lighten2 {
     background-color: #ffc46f;
@@ -30,10 +36,6 @@
 }
 .k-green3 {
     background-color: #3CA3A0;
-}
-
-button {
-    margin: 0 0.25rem;
 }
 
 .thin {
@@ -104,7 +106,6 @@ button {
 
 .ka-btn {
     font-family: 'Open Sans', Helvetica, sans-serif;
-    /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 4px 8px 0 rgba(0,0,0,0.2);*/
     border-style: solid;
     border-width: 2px;
     border-radius: 2px;
@@ -112,9 +113,6 @@ button {
     font-size: 0.4em;
     font-weight: bold;
     padding: 0.25rem;
-}
-.ka-btn:active {
-    /*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 8px 16px 0 rgba(0,0,0,0.2);*/
 }
 @media all and (min-width: 73em) {
     .ka-btn {
@@ -143,6 +141,14 @@ button {
     border-color: #6CC9B7;
     color: #6CC9B7;
 }
+.btn-cta-hollow.k-orange {
+    border-color: #e57125;
+    color: #e57125;
+}
+.btn-cta-hollow.k-orange:hover {
+    background-color: #e57125;
+    color: #ffffff;
+}
 
 .btn-cta-solid {
     background-color: #18927A;
@@ -157,8 +163,4 @@ button {
     pointer-events: none;
     background-color: #6CC9B7;
     border-color: #6CC9B7;
-}
-
-body {
-    font-family: 'Open Sans', Helvetica, sans-serif;
 }
