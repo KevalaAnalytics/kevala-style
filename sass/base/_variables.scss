@@ -1,0 +1,21 @@
+/**
+ * Defines ALL the variables to be used
+ */
+
+$yellow: #FFD832;
+$orange: #FF802B;
+$blue:   #245297;
+$green:  #00B4AB;
+
+$colors: (
+    "yellow": $yellow,
+    "orange": $orange,
+    "blue":   $blue,
+    "green":  $green
+);
+
+$primary-color: $orange;
+$secondary-color: $blue;
+
+$primary-font: 'Open Sans', 'Helvetica', 'sans-serif';
+$title-font: 'Roboto', 'Arial', 'sans-serif';

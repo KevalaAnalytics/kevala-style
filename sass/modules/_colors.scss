@@ -1,0 +1,39 @@
+/**
+ * Defines the available Kevala colors.
+ */
+
+@each $color_name, $color_value in $colors {
+    .k-#{$color_name} {
+        background-color: $color_value !important;
+
+        &.btn {
+            @include btn-background($color_value)
+        }
+    }
+    .k-#{$color_name}-text {
+        color: $color_value !important;
+    }
+    @each $value in (1 2 3) {
+        .k-#{$color_name}.lighten-#{$value} {
+            background-color: lighten($color_value, $value * 10%) !important;
+
+            &.btn {
+                @include btn-background(lighten($color_value, $value * 10%));
+            }
+        }
+        .k-#{$color_name}-text.lighten-#{$value} {
+            color: lighten($color_value, $value * 10%) !important;
+        }
+
+        .k-#{$color_name}.darken-#{$value} {
+            background-color: darken($color_value, $value * 10%) !important;
+
+            &.btn {
+                @include btn-background(darken($color_value, $value * 10%));
+            }
+        }
+        .k-#{$color_name}-text.darken-#{$value} {
+            color: darken($color_value, $value * 10%) !important;
+        }
+    }
+}
