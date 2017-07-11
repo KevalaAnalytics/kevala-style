@@ -16,6 +16,12 @@ If the size of the file matters you can add `.min` before `.css`.
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/KevalaAnalytics/kevala-style@<VERSION>/kevala.min.css" type="text/css">
 ```
 
+## Reference
+To view the available styling classes head to:
+```
+https://kevalaanalytics.github.io/kevala-style/index.html
+```
+
 ## Contribute
 
 ### Dependencies
