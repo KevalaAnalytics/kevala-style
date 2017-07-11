@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Kevala | Style Example</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fontlibrary.org/face/trueno" rel="stylesheet"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+    <link rel="stylesheet" href="kevala.css">
+
+    <script src="https://cdn.jsdelivr.net/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+    <style>
+    .content {
+        padding: 1rem;
+    }
+    .colors > div {
+        padding: 0.5em;
+    }
+    .header__logo {
+        margin-left: 1.5rem;
+        /*position: relative;*/
+        /*top: 4px;*/
+    }
+    .header__logo > img {
+        height: 2rem;
+    }
+    .header__title {
+        font-family: 'TruenoRegular', Helvetica, sans-serif;
+        font-weight: bold;
+        margin-left: 1.5rem;
+    }
+    code {
+        font-size: 0.9rem;
+        border-radius: 4px;
+        padding: 0 !important;
+    }
+    footer {
+        color: #fff;
+        font-weight: bold;
+    }
+    .footer__social-links a {
+        color: #fff;
+    }
+    .footer__social-links a:hover {
+        color: #ff802b;
+    }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <nav>
+        <div class="nav-wrapper header bg k-orange">
+            <a class="header__logo" href="https://kevalaanalytics.com">
+                <img src="k-plus-white.png"/>
+            </a>
+            <span class="header__title small">CSS Style Docs</span>
+        </div>
+    </nav>
+
+    <div class="content container">
+        <div class="row">
+            <div>Use it! Add this to your web application. Remember to change &lt;VERSION&gt;</div>
+            <pre><code class="html">
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/gh/KevalaAnalytics/kevala-style@&lt;VERSION&gt;/kevala.css&quot; type=&quot;text/css&quot;&gt;
+            </code></pre>
+        </div>
+        <div class="row">
+            <div>Color classes</div>
+            <div class="col s12 m6 colors">
+                <div class="k-orange lighten-3">k-orange lighten-3</div>
+                <div class="k-orange lighten-2">k-orange lighten-2</div>
+                <div class="k-orange lighten-1">k-orange lighten-1</div>
+                <div class="k-orange">k-orange</div>
+                <div class="k-orange darken-1 light">k-orange darken-1</div>
+                <div class="k-orange darken-2 light">k-orange darken-2</div>
+                <div class="k-orange darken-3 light">k-orange darken-3</div>
+            </div>
+            <div class="col s12 m6 colors">
+                <div class="k-blue lighten-3">k-blue lighten-3</div>
+                <div class="k-blue lighten-2">k-blue lighten-2</div>
+                <div class="k-blue lighten-1">k-blue lighten-1</div>
+                <div class="k-blue">k-blue</div>
+                <div class="k-blue darken-1 light">k-blue darken-1</div>
+                <div class="k-blue darken-2 light">k-blue darken-2</div>
+                <div class="k-blue darken-3 light">k-blue darken-3</div>
+            </div>
+            <div class="col s12 m6 colors">
+                <div class="k-yellow lighten-3">k-yellow lighten-3</div>
+                <div class="k-yellow lighten-2">k-yellow lighten-2</div>
+                <div class="k-yellow lighten-1">k-yellow lighten-1</div>
+                <div class="k-yellow">k-yellow</div>
+                <div class="k-yellow darken-1 light">k-yellow darken-1</div>
+                <div class="k-yellow darken-2 light">k-yellow darken-2</div>
+                <div class="k-yellow darken-3 light">k-yellow darken-3</div>
+            </div>
+            <div class="col s12 m6 colors">
+                <div class="k-green lighten-3">k-green lighten-3</div>
+                <div class="k-green lighten-2">k-green lighten-2</div>
+                <div class="k-green lighten-1">k-green lighten-1</div>
+                <div class="k-green">k-green</div>
+                <div class="k-green darken-1 light">k-green darken-1</div>
+                <div class="k-green darken-2 light">k-green darken-2</div>
+                <div class="k-green darken-3 light">k-green darken-3</div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div>Button classes</div>
+            <div class="center-align">
+                <button class="btn m3 waves-effect waves-dark k-yellow dark">btn k-yellow</button>
+                <button class="btn m3 waves-effect waves-light k-orange">btn k-orange</button>
+                <button class="btn m3 k-blue">btn k-blue</button>
+                <button class="btn m3 k-green">btn k-green</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div>Text classes</div>
+            <div class="k-yellow-text col m3">
+                k-yellow-text<br/><br/>
+                <div class="center-align">
+                    Selfies deep v XOXO pop-up ethical subway tile neutra sustainable kinfolk direct trade paleo messenger bag stumptown everyday carry. IPhone live-edge XOXO, slow-carb poke bitters narwhal helvetica fanny pack jianbing.
+                </div>
+            </div>
+            <div class="k-orange-text col m3">
+                k-orange-text<br/><br/>
+                <div class="center-align">
+                    Wolf trust fund 90's mustache mlkshk art party mixtape hot chicken leggings activated charcoal. Roof party freegan vice drinking vinegar, 3 wolf moon vape disrupt migas neutra. Crucifix cardigan bespoke venmo, humblebrag.
+                </div>
+            </div>
+            <div class="k-blue-text col m3">
+                k-blue-text<br/><br/>
+                <div class="center-align">
+                    XOXO ramps franzen, jianbing keytar squid meh cronut sustainable master cleanse retro. Gochujang meditation next level cred distillery, bitters tbh tumblr roof party actually sartorial. Aesthetic pour-over occupy leggings.
+                </div>
+            </div>
+            <div class="k-green-text col m3">
+                k-green-text<br/><br/>
+                <div class="center-align">
+                    Master cleanse crucifix wayfarers listicle kogi locavore, franzen iPhone schlitz vaporware occupy chartreuse coloring book forage. Pitchfork lumbersexual tote bag, microdosing scenester freegan drinking vinegar marfa.
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="dark col m3">
+                dark<br/><br/>
+                <div class="center-align">
+                    XOXO ramps franzen, jianbing keytar squid meh cronut sustainable master cleanse retro. Gochujang meditation next level cred distillery, bitters tbh tumblr roof party actually sartorial. Aesthetic pour-over occupy leggings.
+                </div>
+            </div>
+            <div class="light col m3" style="background-color:#000;">
+                light<br/><br/>
+                <div class="center-align">
+                    Wolf trust fund 90's mustache mlkshk art party mixtape hot chicken leggings activated charcoal. Roof party freegan vice drinking vinegar, 3 wolf moon vape disrupt migas neutra. Crucifix cardigan bespoke venmo, humblebrag.
+                </div>
+            </div>
+            <div class="thin col m3">
+                thin<br/><br/>
+                <div class="center-align">
+                    XOXO ramps franzen, jianbing keytar squid meh cronut sustainable master cleanse retro. Gochujang meditation next level cred distillery, bitters tbh tumblr roof party actually sartorial. Aesthetic pour-over occupy leggings.
+                </div>
+            </div>
+            <div class="thick col m3">
+                thick<br/><br/>
+                <div class="center-align">
+                    Wolf trust fund 90's mustache mlkshk art party mixtape hot chicken leggings activated charcoal. Roof party freegan vice drinking vinegar, 3 wolf moon vape disrupt migas neutra. Crucifix cardigan bespoke venmo, humblebrag.
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="label col m12">
+                label<br/><br/>
+                <div class="center-align">
+                    XOXO ramps franzen, jianbing keytar squid meh cronut sustainable master cleanse retro. Gochujang meditation next level cred distillery, bitters tbh tumblr roof party actually sartorial. Aesthetic pour-over occupy leggings.
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="title col m12">
+                title<br/><br/>
+                <div class="center-align">
+                    Wolf trust fund 90's mustache mlkshk art party mixtape hot chicken leggings activated charcoal. Roof party freegan vice drinking vinegar, 3 wolf moon vape disrupt migas neutra. Crucifix cardigan bespoke venmo, humblebrag.
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="title primary col m6">
+                title primary<br/><br/>
+                <div class="center-align">
+                    Wolf trust fund 90's mustache mlkshk art party mixtape hot chicken leggings activated charcoal.
+                </div>
+            </div>
+            <div class="title primary-small col m6">
+                title primary-small<br/><br/>
+                <div class="center-align">
+                    XOXO ramps franzen, jianbing keytar squid meh cronut sustainable master cleanse retro. Gochujang meditation next level cred distillery, bitters tbh tumblr roof party actually sartorial.
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="title secondary col m6">
+                title secondary<br/><br/>
+                <div class="center-align">
+                    Wolf trust fund 90's mustache mlkshk art party mixtape hot chicken leggings activated charcoal. Roof party freegan vice drinking vinegar.
+                </div>
+            </div>
+            <div class="title secondary-small col m6">
+                title secondary-small<br/><br/>
+                <div class="center-align">
+                    XOXO ramps franzen, jianbing keytar squid meh cronut sustainable master cleanse retro. Gochujang meditation next level cred distillery, bitters tbh tumblr roof party actually sartorial. Aesthetic pour-over occupy leggings.
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="tiny col m6">
+                tiny<br/><br/>
+                <div class="center-align">
+                    Wolf trust fund 90's mustache mlkshk art party mixtape hot chicken leggings activated charcoal. Roof party freegan vice drinking vinegar, 3 wolf moon vape disrupt migas neutra. Crucifix cardigan bespoke venmo, humblebrag.
+                </div>
+            </div>
+            <div class="small col m6">
+                small<br/><br/>
+                <div class="center-align">
+                    XOXO ramps franzen, jianbing keytar squid meh cronut sustainable master cleanse retro.
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="xlarge col m6">
+                xlarge<br/><br/>
+                <div class="center-align">
+                    Wolf trust.
+                </div>
+            </div>
+            <div class="xxlarge col m6">
+                xxlarge<br/><br/>
+                <div class="center-align">
+                    XOXO ramps.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="k-blue">
+        <div class="container content">
+            <div class="row">
+                <div class="col m4">
+                    San Francisco + Chicago + Austin
+                </div>
+                <div class="col m4 center-align footer__social-links">
+                    <a href="https://twitter.com/kevalaanalytics">
+                        <i class="fa fa-twitter small" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/kevala-inc-">
+                        <i class="fa fa-linkedin small" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <span class="col m4 right-align">
+                    © 2014-2017 by Kevala, Inc.
+                </span>
+            </div>
+        </div>
+    </footer>
+
+    <script>hljs.initHighlightingOnLoad();</script>
+</body>
+</html>

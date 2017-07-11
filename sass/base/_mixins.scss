@@ -1,0 +1,11 @@
+/**
+ * Defines available mixins
+ */
+
+@mixin btn-background($background) {
+    &:hover,
+    &:active, 
+    &:focus {
+        background-color: lighten($background, 10%) !important;
+    }
+}

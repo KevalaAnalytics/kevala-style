@@ -1,0 +1,60 @@
+/*
+ * Defines different text related classes
+ */
+html {
+    font-family: $primary-font;
+}
+
+.light {
+    color: #FFF;
+}
+
+.dark {
+    color: #000;
+}
+
+.thin {
+    font-weight: 100;
+}
+
+.thick {
+    font-weight: 700;
+}
+
+.label {
+    font-size: 1.5rem;
+}
+
+.title {
+    font-family: $title-font;
+
+    &.primary {
+        font-size: 3rem;
+    }
+    &.primary-small {
+        font-size: 2.5rem;
+    }
+    &.secondary {
+        font-size: 2rem;
+    }
+    &.secondary-small {
+        font-size: 1.5rem;
+    }
+}
+
+// These are supplemental classes for similar Materialize
+.tiny {
+    font-size: 1rem;
+}
+
+.small {
+    font-size: 2rem;
+}
+
+.xlarge {
+    font-size: 8rem;
+}
+
+.xxlarge {
+    font-size: 10rem;
+}

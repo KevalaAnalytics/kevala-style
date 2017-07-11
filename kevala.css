@@ -1,166 +1,290 @@
-/* Kevala specific styling
-*/
-body {
-    font-family: 'Open Sans', Helvetica, sans-serif;
-}
-button {
-    margin: 0 0.25rem;
-}
-
+/* VENDOR - Default fall-backs and external files.
+========================================================================== */
+/* BASE - Base Variable file along with starting point Mixins and Placeholders.
+========================================================================== */
+/**
+ * Defines ALL the variables to be used
+ */
+/**
+ * Defines available mixins
+ */
+/* MODULES - Re-usable site elements.
+========================================================================== */
+/**
+ * Defines the available Kevala colors.
+ */
 .k-yellow {
-    background-color: #FFD832;
-}
-.k-orange {
-    background-color: #ff802b;
-}
-.k-orange.lighten {
-    background-color: #ffa24d;
-}
-.k-orange.lighten2 {
-    background-color: #ffc46f;
-}
-.k-orange2 {
-    background-color: #F94007;
-}
-.k-blue {
-    background-color: #245297;
-}
-.k-blue2 {
-    background-color: #00215B;
-}
-.k-green {
-    background-color: #00B4AB;
-}
-.k-green2 {
-    background-color: #00999E;
-}
-.k-green3 {
-    background-color: #3CA3A0;
-}
+  background-color: #FFD832 !important; }
+  .k-yellow.btn:hover, .k-yellow.btn:active, .k-yellow.btn:focus {
+    background-color: #ffe265 !important; }
 
-.thin {
-    font-weight: 200;
-}
-.thick {
-    font-weight: 600;
-}
+.k-yellow-text {
+  color: #FFD832 !important; }
+
+.k-yellow.lighten-1 {
+  background-color: #ffe265 !important; }
+  .k-yellow.lighten-1.btn:hover, .k-yellow.lighten-1.btn:active, .k-yellow.lighten-1.btn:focus {
+    background-color: #ffeb98 !important; }
+
+.k-yellow-text.lighten-1 {
+  color: #ffe265 !important; }
+
+.k-yellow.darken-1 {
+  background-color: #fece00 !important; }
+  .k-yellow.darken-1.btn:hover, .k-yellow.darken-1.btn:active, .k-yellow.darken-1.btn:focus {
+    background-color: #ffd832 !important; }
+
+.k-yellow-text.darken-1 {
+  color: #fece00 !important; }
+
+.k-yellow.lighten-2 {
+  background-color: #ffeb98 !important; }
+  .k-yellow.lighten-2.btn:hover, .k-yellow.lighten-2.btn:active, .k-yellow.lighten-2.btn:focus {
+    background-color: #fff5cb !important; }
+
+.k-yellow-text.lighten-2 {
+  color: #ffeb98 !important; }
+
+.k-yellow.darken-2 {
+  background-color: #cba400 !important; }
+  .k-yellow.darken-2.btn:hover, .k-yellow.darken-2.btn:active, .k-yellow.darken-2.btn:focus {
+    background-color: #fece00 !important; }
+
+.k-yellow-text.darken-2 {
+  color: #cba400 !important; }
+
+.k-yellow.lighten-3 {
+  background-color: #fff5cb !important; }
+  .k-yellow.lighten-3.btn:hover, .k-yellow.lighten-3.btn:active, .k-yellow.lighten-3.btn:focus {
+    background-color: #fffffe !important; }
+
+.k-yellow-text.lighten-3 {
+  color: #fff5cb !important; }
+
+.k-yellow.darken-3 {
+  background-color: #987b00 !important; }
+  .k-yellow.darken-3.btn:hover, .k-yellow.darken-3.btn:active, .k-yellow.darken-3.btn:focus {
+    background-color: #cba400 !important; }
+
+.k-yellow-text.darken-3 {
+  color: #987b00 !important; }
+
+.k-orange {
+  background-color: #FF802B !important; }
+  .k-orange.btn:hover, .k-orange.btn:active, .k-orange.btn:focus {
+    background-color: #ff9f5e !important; }
+
+.k-orange-text {
+  color: #FF802B !important; }
+
+.k-orange.lighten-1 {
+  background-color: #ff9f5e !important; }
+  .k-orange.lighten-1.btn:hover, .k-orange.lighten-1.btn:active, .k-orange.lighten-1.btn:focus {
+    background-color: #ffbd91 !important; }
+
+.k-orange-text.lighten-1 {
+  color: #ff9f5e !important; }
+
+.k-orange.darken-1 {
+  background-color: #f76300 !important; }
+  .k-orange.darken-1.btn:hover, .k-orange.darken-1.btn:active, .k-orange.darken-1.btn:focus {
+    background-color: #ff802b !important; }
+
+.k-orange-text.darken-1 {
+  color: #f76300 !important; }
+
+.k-orange.lighten-2 {
+  background-color: #ffbd91 !important; }
+  .k-orange.lighten-2.btn:hover, .k-orange.lighten-2.btn:active, .k-orange.lighten-2.btn:focus {
+    background-color: #ffdcc4 !important; }
+
+.k-orange-text.lighten-2 {
+  color: #ffbd91 !important; }
+
+.k-orange.darken-2 {
+  background-color: #c44f00 !important; }
+  .k-orange.darken-2.btn:hover, .k-orange.darken-2.btn:active, .k-orange.darken-2.btn:focus {
+    background-color: #f76300 !important; }
+
+.k-orange-text.darken-2 {
+  color: #c44f00 !important; }
+
+.k-orange.lighten-3 {
+  background-color: #ffdcc4 !important; }
+  .k-orange.lighten-3.btn:hover, .k-orange.lighten-3.btn:active, .k-orange.lighten-3.btn:focus {
+    background-color: #fffaf7 !important; }
+
+.k-orange-text.lighten-3 {
+  color: #ffdcc4 !important; }
+
+.k-orange.darken-3 {
+  background-color: #913a00 !important; }
+  .k-orange.darken-3.btn:hover, .k-orange.darken-3.btn:active, .k-orange.darken-3.btn:focus {
+    background-color: #c44f00 !important; }
+
+.k-orange-text.darken-3 {
+  color: #913a00 !important; }
+
+.k-blue {
+  background-color: #245297 !important; }
+  .k-blue.btn:hover, .k-blue.btn:active, .k-blue.btn:focus {
+    background-color: #2e68c0 !important; }
+
+.k-blue-text {
+  color: #245297 !important; }
+
+.k-blue.lighten-1 {
+  background-color: #2e68c0 !important; }
+  .k-blue.lighten-1.btn:hover, .k-blue.lighten-1.btn:active, .k-blue.lighten-1.btn:focus {
+    background-color: #4d83d4 !important; }
+
+.k-blue-text.lighten-1 {
+  color: #2e68c0 !important; }
+
+.k-blue.darken-1 {
+  background-color: #1a3c6e !important; }
+  .k-blue.darken-1.btn:hover, .k-blue.darken-1.btn:active, .k-blue.darken-1.btn:focus {
+    background-color: #245297 !important; }
+
+.k-blue-text.darken-1 {
+  color: #1a3c6e !important; }
+
+.k-blue.lighten-2 {
+  background-color: #4d83d4 !important; }
+  .k-blue.lighten-2.btn:hover, .k-blue.lighten-2.btn:active, .k-blue.lighten-2.btn:focus {
+    background-color: #76a0de !important; }
+
+.k-blue-text.lighten-2 {
+  color: #4d83d4 !important; }
+
+.k-blue.darken-2 {
+  background-color: #102545 !important; }
+  .k-blue.darken-2.btn:hover, .k-blue.darken-2.btn:active, .k-blue.darken-2.btn:focus {
+    background-color: #1a3c6e !important; }
+
+.k-blue-text.darken-2 {
+  color: #102545 !important; }
+
+.k-blue.lighten-3 {
+  background-color: #76a0de !important; }
+  .k-blue.lighten-3.btn:hover, .k-blue.lighten-3.btn:active, .k-blue.lighten-3.btn:focus {
+    background-color: #9fbce8 !important; }
+
+.k-blue-text.lighten-3 {
+  color: #76a0de !important; }
+
+.k-blue.darken-3 {
+  background-color: #070f1b !important; }
+  .k-blue.darken-3.btn:hover, .k-blue.darken-3.btn:active, .k-blue.darken-3.btn:focus {
+    background-color: #102545 !important; }
+
+.k-blue-text.darken-3 {
+  color: #070f1b !important; }
+
+.k-green {
+  background-color: #00B4AB !important; }
+  .k-green.btn:hover, .k-green.btn:active, .k-green.btn:focus {
+    background-color: #00e7db !important; }
+
+.k-green-text {
+  color: #00B4AB !important; }
+
+.k-green.lighten-1 {
+  background-color: #00e7db !important; }
+  .k-green.lighten-1.btn:hover, .k-green.lighten-1.btn:active, .k-green.lighten-1.btn:focus {
+    background-color: #1bfff4 !important; }
+
+.k-green-text.lighten-1 {
+  color: #00e7db !important; }
+
+.k-green.darken-1 {
+  background-color: #00817b !important; }
+  .k-green.darken-1.btn:hover, .k-green.darken-1.btn:active, .k-green.darken-1.btn:focus {
+    background-color: #00b4ab !important; }
+
+.k-green-text.darken-1 {
+  color: #00817b !important; }
+
+.k-green.lighten-2 {
+  background-color: #1bfff4 !important; }
+  .k-green.lighten-2.btn:hover, .k-green.lighten-2.btn:active, .k-green.lighten-2.btn:focus {
+    background-color: #4efff6 !important; }
+
+.k-green-text.lighten-2 {
+  color: #1bfff4 !important; }
+
+.k-green.darken-2 {
+  background-color: #004e4a !important; }
+  .k-green.darken-2.btn:hover, .k-green.darken-2.btn:active, .k-green.darken-2.btn:focus {
+    background-color: #00817b !important; }
+
+.k-green-text.darken-2 {
+  color: #004e4a !important; }
+
+.k-green.lighten-3 {
+  background-color: #4efff6 !important; }
+  .k-green.lighten-3.btn:hover, .k-green.lighten-3.btn:active, .k-green.lighten-3.btn:focus {
+    background-color: #81fff9 !important; }
+
+.k-green-text.lighten-3 {
+  color: #4efff6 !important; }
+
+.k-green.darken-3 {
+  background-color: #001b1a !important; }
+  .k-green.darken-3.btn:hover, .k-green.darken-3.btn:active, .k-green.darken-3.btn:focus {
+    background-color: #004e4a !important; }
+
+.k-green-text.darken-3 {
+  color: #001b1a !important; }
+
+/*
+ * Defines different text related classes
+ */
+html {
+  font-family: "Open Sans", "Helvetica", "sans-serif"; }
 
 .light {
-    color: #fff;
-}
+  color: #FFF; }
+
 .dark {
-    color: #000;
-}
+  color: #000; }
+
+.thin {
+  font-weight: 100; }
+
+.thick {
+  font-weight: 700; }
 
 .label {
-    font-size: 1.5em;
-}
-.label-small {
-    font-size: 1.25em;
-}
-
-.tiny {
-    font-size: 1rem;
-}
-.small {
-    font-size: 2rem;
-}
-.xlarge {
-    font-size: 8rem;
-}
-.xxlarge {
-    font-size: 10rem;
-}
+  font-size: 1.5rem; }
 
 .title {
-    font-family: 'Roboto', Arial, sans-serif;
-}
-.title.primary {
-    font-size: 3.125em;
-}
-.title.primary-small {
-    font-size: 1.75em;
-}
-.title.secondary {
-    font-size: 2.25em;
-}
-.title.secondary-small {
-    font-size: 1.875em;
-}
-@media all and (min-width: 73em) {
-    .tiny {
-        font-size: 0.5em;
-    }
-    .title.primary-small {
-        font-size: 2.25em;
-    }
-}
-@media all and (min-width: 120em) {
-    .tiny {
-        font-size: 0.75em;
-    }
-    .title.primary-small {
-        font-size: 3.125em;
-    }
-}
+  font-family: "Roboto", "Arial", "sans-serif"; }
+  .title.primary {
+    font-size: 3rem; }
+  .title.primary-small {
+    font-size: 2.5rem; }
+  .title.secondary {
+    font-size: 2rem; }
+  .title.secondary-small {
+    font-size: 1.5rem; }
 
-.ka-btn {
-    font-family: 'Open Sans', Helvetica, sans-serif;
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 2px;
-    cursor: pointer;
-    font-size: 0.4em;
-    font-weight: bold;
-    padding: 0.25rem;
-}
-@media all and (min-width: 73em) {
-    .ka-btn {
-        border-width: 4px;
-        font-size: 0.7em;
-        padding: 0.375rem;
-    }
-}
-@media all and (min-width: 120em) {
-    .ka-btn {
-        font-size: 1em;
-    }
-}
+.tiny {
+  font-size: 1rem; }
 
-.btn-cta-hollow {
-    background-color: #FFF;
-    border-color: #18927A;
-    color: #18927A;
-}
-.btn-cta-hollow:hover {
-    background-color: #18927A;
-    color: #FFF;
-}
-.btn-cta-hollow:disabled {
-    pointer-events: none;
-    border-color: #6CC9B7;
-    color: #6CC9B7;
-}
-.btn-cta-hollow.k-orange {
-    border-color: #e57125;
-    color: #e57125;
-}
-.btn-cta-hollow.k-orange:hover {
-    background-color: #e57125;
-    color: #ffffff;
-}
+.small {
+  font-size: 2rem; }
 
-.btn-cta-solid {
-    background-color: #18927A;
-    border-color: #18927A;
-    color: #FFF;
-}
-.btn-cta-solid:hover {
-    background-color: #296E60;
-    border-color: #296E60;
-}
-.btn-cta-solid:disabled {
-    pointer-events: none;
-    background-color: #6CC9B7;
-    border-color: #6CC9B7;
-}
+.xlarge {
+  font-size: 8rem; }
+
+.xxlarge {
+  font-size: 10rem; }
+
+/*
+ * Defines common expected properties for buttons
+ */
+button {
+  margin: 0 0.25rem; }
+
+/*# sourceMappingURL=kevala.css.map */
