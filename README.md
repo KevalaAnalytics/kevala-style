@@ -17,7 +17,7 @@ If the size of the file matters you can add `.min` before `.css`.
 ```
 
 ## Reference
-[Use this online reference](https://kevalaanalytics.github.io/kevala-style/index.html), to view the available styling classes.
+[Use this online reference](https://kevalaanalytics.github.io/kevala-style/index.html) to view the available styling classes.
 
 Located here:
 ```
