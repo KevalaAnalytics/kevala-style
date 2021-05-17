@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Grid/Feeder v2</title>
+    <defs>
+        <path d="M13.2173913,4 L13.217,5.615 L19,5.61538462 L19,6.90769231 L18.695,6.907 L18.6956522,7.87692308 L17.4782609,7.87692308 L17.478,6.907 L15.994,6.907 L13.217,10.275 L13.2173913,20 L10.7826087,20 L10.782,10.276 L8.005,6.907 L6.521,6.907 L6.52173913,7.87692308 L5.30434783,7.87692308 L5.304,6.907 L5,6.90769231 L5,5.61538462 L10.782,5.615 L10.7826087,4 L13.2173913,4 Z M9.87217391,11.1076923 L9.87217391,17.5692308 L6.22,17.5692308 L6.22,11.1076923 L9.87217391,11.1076923 Z M17.7821739,11.1076923 L17.7821739,17.5692308 L14.13,17.5692308 L14.13,11.1076923 L17.7821739,11.1076923 Z M10.782,6.907 L9.07,6.907 L10.782,8.984 L10.782,6.907 Z M14.929,6.907 L13.217,6.907 L13.217,8.983 L14.929,6.907 Z" id="path-1"></path>
+    </defs>
+    <g id="Icon/Grid/Feeder-v2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Bounding-Box" points="0 0 24 0 24 24 0 24"></polygon>
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g id="Combined-Shape"></g>
+        <g id="Group" mask="url(#mask-2)" fill="#0B182C">
+            <g id="Mixin/Fill/Black">
+                <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
